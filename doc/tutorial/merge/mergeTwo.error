@@ -1,0 +1,30 @@
+#file_reference is template.ngff
+#files_need2merge is:forMerge.gff3	forMerge.gtf
+input is template.ngff
+input is template.ngff
+#store reference file is beginning.
+#store reference file is ending.
+input is forMerge.gff3
+input is forMerge.gff3
+#store forMerge.gff3 is beginning.
+#store forMerge.gff3 is ending.
+#start merge file forMerge.gff3(1 times)
+ref template.ngff and sub forMerge.gff3: sub has new locus id gff3_gene2.locus
+ref template.ngff and sub forMerge.gff3: sub has new locus id gff3_gene8.locus
+#finish merge file forMerge.gff3(1 times)
+input is forMerge.gtf
+input is forMerge.gtf
+#store forMerge.gtf is beginning.
+check: in gtf
+#store forMerge.gtf is ending.
+#start merge file forMerge.gtf(2 times)
+ref template.ngff and sub forMerge.gtf: sub has new locus id gtf_ENSG00000223972.locus
+ref template.ngff and sub forMerge.gtf have close position locus ref:gff3_gene2.locus and sub:gtf_ENSG00000278267.locus
+inevaluate_samePos ref template.ngff and sub forMerge.gtf have same position primary ref:gff3_rna2.primary and sub:gtf_ENST00000619216.primary. skip store gtf_ENST00000619216.primary
+inevaluate_samePos ref template.ngff and sub forMerge.gtf have same position processed ref:gff3_rna2 and sub:gtf_ENST00000619216. skip store gtf_ENST00000619216
+#finish merge file forMerge.gtf(2 times)
+#OutFormat:ngff
+#print ourput is beginning.
+L01.t12.p1(7985 - 8900)'s phase is wrong, been corrected from 2 to 0
+L01.t12.p1(6675 - 6787)'s phase is wrong, been corrected from 1 to 2
+#print ourput is ending.

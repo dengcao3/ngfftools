@@ -1,0 +1,5 @@
+input is template.ngff
+#InFormat:ngff
+input is template.ngff
+#store infile is beginning.
+#store infile is ending.

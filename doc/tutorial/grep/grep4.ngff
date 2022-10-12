@@ -1,0 +1,53 @@
+##NGFF version 1.0
+#This is a HGFF format sample file, all features in this file								
+#are not real ones.								
+##HGFF version 1.0								
+##species Arabidopsis thaliana								
+##genome-build TAIR10.1								
+##featureTypes-ontology file:///psd/database/HGFF/ontology/featureTypes.txt								
+##attributes-ontology file:///psd/database/HGFF/ontology/attributes.txt								
+##reference Chr1 1 30427671								
+##reference Chr2 1 19698289								
+##reference Chr3 1 23459830								
+##reference Chr4 1 18585056								
+##reference Chr5 1 26975502								
+##reference ChrM 1 367808								
+##reference ChrC 1 154478								
+#seqId	start	end	strand	level	featureType	id	parentId	attributes
+Chr1	1	30427671	+	chromosome	reference	Chr1	genome	seqSource=major;circular=FALSE;featureUid=Chr1_1_30427671_+;
+Chr2	1	19698289	+	chromosome	reference	Chr2	genome	seqSource=major;circular=FALSE;featureUid=Chr2_1_19698289_+;
+Chr3	1	23459830	+	chromosome	reference	Chr3	genome	seqSource=major;circular=FALSE;featureUid=Chr3_1_23459830_+;
+Chr4	1	18585056	+	chromosome	reference	Chr4	genome	seqSource=major;circular=FALSE;featureUid=Chr4_1_18585056_+;
+Chr5	1	26975502	+	chromosome	reference	Chr5	genome	seqSource=major;circular=FALSE;featureUid=Chr5_1_26975502_+;
+ChrC	1	154478	+	chromosome	reference	ChrC	genome	seqSource=Chloroplast;circular=TRUE;featureUid=ChrC_1_154478_+;
+ChrM	1	366924	+	chromosome	reference	ChrM	genome	seqSource=mitochondrion;circular=TRUE;featureUid=ChrM_1_366924_+;
+Chr1	6036	6098	+	processed	exon	L01.t4	L01.pt3	processed_biotype=processed_transcript;product_biotype=ORF;featureUid=Chr1_6036_6098_+;
+Chr1	6675	6787	+	processed	exon	L01.t4	L01.pt3	processed_biotype=processed_transcript;product_biotype=ORF;featureUid=Chr1_6675_6787_+;
+Chr1	7985	8243	+	processed	exon	L01.t4	L01.pt3	processed_biotype=processed_transcript;product_biotype=ORF;featureUid=Chr1_7985_8243_+;
+Chr1	8486	8645	+	processed	exon	L01.t4	L01.pt3	processed_biotype=processed_transcript;product_biotype=ORF;featureUid=Chr1_8486_8645_+;
+Chr1	6036	6098	+	processed	exon	L01.t5	L01.pt4,L01.pt3	processed_biotype=processed_transcript;product_biotype=ORF,sORF;featureUid=Chr1_6036_6098_+;
+Chr1	6675	6787	+	processed	exon	L01.t5	L01.pt4,L01.pt3	processed_biotype=processed_transcript;product_biotype=ORF,sORF;featureUid=Chr1_6675_6787_+;
+Chr1	6987	7063	+	processed	exon	L01.t5	L01.pt4,L01.pt3	processed_biotype=processed_transcript;product_biotype=ORF,sORF;featureUid=Chr1_6987_7063_+;
+Chr1	6124	6342	+	processed	exon	L01.t6	L01.pt4	processed_biotype=processed_transcript;product_biotype=circleRNA;featureUid=Chr1_6124_6342_+;
+Chr1	6398	6478	+	processed	exon	L01.t6	L01.pt4	processed_biotype=processed_transcript;product_biotype=circleRNA;featureUid=Chr1_6398_6478_+;
+Chr1	6124	6342	+	processed	exon	L01.t7	L01.pt4	processed_biotype=processed_transcript;product_biotype=circleRNA;featureUid=Chr1_6124_6342_+;
+Chr1	6343	6397	+	processed	intron	L01.t7	L01.pt4	processed_biotype=processed_transcript;product_biotype=circleRNA;featureUid=Chr1_6343_6397_+;
+Chr1	6398	6478	+	processed	exon	L01.t7	L01.pt4	processed_biotype=processed_transcript;product_biotype=circleRNA;featureUid=Chr1_6398_6478_+;
+Chr1	6343	6397	+	processed	intron	L01.t8	L01.pt4	processed_biotype=processed_transcript;product_biotype=circleRNA;featureUid=Chr1_6343_6397_+;
+Chr1	6124	6342	+	processed	exon	L01.t9	L01.pt5	processed_biotype=processed_transcript;product_biotype=lncRNA,teORF;featureUid=Chr1_6124_6342_+;
+Chr1	6398	6478	+	processed	exon	L01.t9	L01.pt5	processed_biotype=processed_transcript;product_biotype=lncRNA,teORF;featureUid=Chr1_6398_6478_+;
+Chr1	6675	6787	+	processed	exon	L01.t9	L01.pt5	processed_biotype=processed_transcript;product_biotype=lncRNA,teORF;featureUid=Chr1_6675_6787_+;
+Chr1	6987	7063	+	processed	exon	L01.t9	L01.pt5	processed_biotype=processed_transcript;product_biotype=lncRNA,teORF;featureUid=Chr1_6987_7063_+;
+Chr1	7985	8243	+	processed	exon	L01.t9	L01.pt5	processed_biotype=processed_transcript;product_biotype=lncRNA,teORF;featureUid=Chr1_7985_8243_+;
+Chr1	8486	8645	+	processed	exon	L01.t9	L01.pt5	processed_biotype=processed_transcript;product_biotype=lncRNA,teORF;featureUid=Chr1_8486_8645_+;
+Chr1	6124	6342	+	processed	exon	L01.t10	L01.pt6	processed_biotype=processed_transcript;product_biotype=lncRNA;featureUid=Chr1_6124_6342_+;
+Chr1	6398	6478	+	processed	exon	L01.t10	L01.pt6	processed_biotype=processed_transcript;product_biotype=lncRNA;featureUid=Chr1_6398_6478_+;
+Chr1	6675	6787	+	processed	exon	L01.t10	L01.pt6	processed_biotype=processed_transcript;product_biotype=lncRNA;featureUid=Chr1_6675_6787_+;
+Chr1	6987	7063	+	processed	exon	L01.t10	L01.pt6	processed_biotype=processed_transcript;product_biotype=lncRNA;featureUid=Chr1_6987_7063_+;
+Chr1	6124	6342	+	processed	exon	L01.t11	L01.pt7	processed_biotype=processed_transcript;product_biotype=miRNA;featureUid=Chr1_6124_6342_+;
+Chr1	6398	6478	+	processed	exon	L01.t11	L01.pt7	processed_biotype=processed_transcript;product_biotype=miRNA;featureUid=Chr1_6398_6478_+;
+Chr1	6300	6400	-	processed	exon	L01.t12	L01.pt8	processed_biotype=processed_transcript;product_biotype=ORF;featureUid=Chr1_6300_6400_-;
+Chr1	6675	6787	-	processed	exon	L01.t12	L01.pt8	processed_biotype=processed_transcript;product_biotype=ORF;featureUid=Chr1_6675_6787_-;
+Chr1	7985	8900	-	processed	exon	L01.t12	L01.pt8	processed_biotype=processed_transcript;product_biotype=ORF;featureUid=Chr1_7985_8900_-;
+ChrM	59400	59700	+	processed	exon	L02.t1	L02.pt1	processed_biotype=processed_transcript;product_biotype=ORF;featureUid=ChrM_59400_59700_+;
+ChrM	59800	60370	+	processed	exon	L02.t1	L02.pt1	processed_biotype=processed_transcript;product_biotype=ORF;featureUid=ChrM_59800_60370_+;

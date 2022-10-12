@@ -1,0 +1,130 @@
+##NGFF version 1.0
+#This is a HGFF format sample file, all features in this file								
+#are not real ones.								
+##HGFF version 1.0								
+##species Arabidopsis thaliana								
+##genome-build TAIR10.1								
+##featureTypes-ontology file:///psd/database/HGFF/ontology/featureTypes.txt								
+##attributes-ontology file:///psd/database/HGFF/ontology/attributes.txt								
+##reference Chr1 1 30427671								
+##reference Chr2 1 19698289								
+##reference Chr3 1 23459830								
+##reference Chr4 1 18585056								
+##reference Chr5 1 26975502								
+##reference ChrM 1 367808								
+##reference ChrC 1 154478								
+#seqId	start	end	strand	level	featureType	id	parentId	attributes
+Chr1	1	30427671	+	chromosome	reference	Chr1	genome	seqSource=major;circular=FALSE;featureUid=Chr1_1_30427671_+;
+Chr2	1	19698289	+	chromosome	reference	Chr2	genome	seqSource=major;circular=FALSE;featureUid=Chr2_1_19698289_+;
+Chr3	1	23459830	+	chromosome	reference	Chr3	genome	seqSource=major;circular=FALSE;featureUid=Chr3_1_23459830_+;
+Chr4	1	18585056	+	chromosome	reference	Chr4	genome	seqSource=major;circular=FALSE;featureUid=Chr4_1_18585056_+;
+Chr5	1	26975502	+	chromosome	reference	Chr5	genome	seqSource=major;circular=FALSE;featureUid=Chr5_1_26975502_+;
+ChrC	1	154478	+	chromosome	reference	ChrC	genome	seqSource=Chloroplast;circular=TRUE;featureUid=ChrC_1_154478_+;
+ChrM	1	366924	+	chromosome	reference	ChrM	genome	seqSource=mitochondrion;circular=TRUE;featureUid=ChrM_1_366924_+;
+Chr1	5917	5927	+	locus	regulator	L01	Chr1	regulator_biotype=promotor;featureUid=Chr1_5917_5927_+;
+Chr1	3212	3234	-	locus	regulator	L01	Chr1	regulator_biotype=enhancer;featureUid=Chr1_3212_3234_-;
+Chr1	5928	8737	+	locus	locus	L01	Chr1	featureUid=Chr1_5928_8737_+;
+Chr1	5928	8737	+	primary	region	L01.pt1	L01	primary_biotype=primary_transcript;transcribed=TRUE;featureUid=Chr1_5928_8737_+;
+Chr1	5928	5997	+	processed	exon	L01.t1	L01.pt1	processed_biotype=processed_transcript;product_biotype=ORF,sORF;featureUid=Chr1_5928_5997_+;
+Chr1	6036	6098	+	processed	exon	L01.t1	L01.pt1	processed_biotype=processed_transcript;product_biotype=ORF,sORF;featureUid=Chr1_6036_6098_+;
+Chr1	6675	6787	+	processed	exon	L01.t1	L01.pt1	processed_biotype=processed_transcript;product_biotype=ORF,sORF;featureUid=Chr1_6675_6787_+;
+Chr1	7985	8243	+	processed	exon	L01.t1	L01.pt1	processed_biotype=processed_transcript;product_biotype=ORF,sORF;featureUid=Chr1_7985_8243_+;
+Chr1	8486	8645	+	processed	exon	L01.t1	L01.pt1	processed_biotype=processed_transcript;product_biotype=ORF,sORF;featureUid=Chr1_8486_8645_+;
+Chr1	6036	6038	+	product	regulator	L01.t1.p1	L01.t1	regulator_biotype=stop_codon;sequence=TAA;featureUid=Chr1_6036_6038_+;
+Chr1	5940	5942	+	product	regulator	L01.t1.p1	L01.t1	regulator_biotype=start_codon;sequence=AAG;featureUid=Chr1_5940_5942_+;
+Chr1	5940	5997	+	product	CDS	L01.t1.p1	L01.t1	product_biotype=sORF;product_cluster=L01.g2.pc1;gene=L01.g2;phase=0;featureUid=Chr1_5940_5997_+;
+Chr1	6036	6038	+	product	CDS	L01.t1.p1	L01.t1	product_biotype=sORF;product_cluster=L01.g2.pc1;gene=L01.g2;phase=2;featureUid=Chr1_6036_6038_+;
+Chr1	5963	5997	+	product	CDS	L01.t1.p2	L01.t1	product_biotype=ORF;product_cluster=L01.g1.pc1;gene=L01.g1;gene_name=L01.gn1;phase=0;featureUid=Chr1_5963_5997_+;
+Chr1	6036	6098	+	product	CDS	L01.t1.p2	L01.t1	product_biotype=ORF;product_cluster=L01.g1.pc1;gene=L01.g1;gene_name=L01.gn1;phase=1;featureUid=Chr1_6036_6098_+;
+Chr1	6675	6787	+	product	CDS	L01.t1.p2	L01.t1	product_biotype=ORF;product_cluster=L01.g1.pc1;gene=L01.g1;gene_name=L01.gn1;phase=1;featureUid=Chr1_6675_6787_+;
+Chr1	7985	8243	+	product	CDS	L01.t1.p2	L01.t1	product_biotype=ORF;product_cluster=L01.g1.pc1;gene=L01.g1;gene_name=L01.gn1;phase=2;frameshift=7996:-1;featureUid=Chr1_7985_8243_+;
+Chr1	8486	8593	+	product	CDS	L01.t1.p2	L01.t1	product_biotype=ORF;product_cluster=L01.g1.pc1;gene=L01.g1;gene_name=L01.gn1;phase=0;featureUid=Chr1_8486_8593_+;
+Chr1	5963	5997	+	product	CDS	L01.t1.p3	L01.t1	product_biotype=ORF;product_cluster=L01.g1.pc2;gene=L01.g1;gene_name=L01.gn1;phase=0;featureUid=Chr1_5963_5997_+;
+Chr1	6036	6098	+	product	CDS	L01.t1.p3	L01.t1	product_biotype=ORF;product_cluster=L01.g1.pc2;gene=L01.g1;gene_name=L01.gn1;phase=1;featureUid=Chr1_6036_6098_+;
+Chr1	6675	6787	+	product	CDS	L01.t1.p3	L01.t1	product_biotype=ORF;product_cluster=L01.g1.pc2;gene=L01.g1;gene_name=L01.gn1;phase=1;featureUid=Chr1_6675_6787_+;
+Chr1	7985	7998	+	product	CDS	L01.t1.p3	L01.t1	product_biotype=ORF;product_cluster=L01.g1.pc2;gene=L01.g1;gene_name=L01.gn1;phase=2;featureUid=Chr1_7985_7998_+;
+Chr1	6049	6098	+	product	CDS	L01.t1.p4	L01.t1	product_biotype=ORF;product_cluster=L01.g1.pc3;gene=L01.g1;gene_name=L01.gn1;phase=0;featureUid=Chr1_6049_6098_+;
+Chr1	6675	6787	+	product	CDS	L01.t1.p4	L01.t1	product_biotype=ORF;product_cluster=L01.g1.pc3;gene=L01.g1;gene_name=L01.gn1;phase=1;featureUid=Chr1_6675_6787_+;
+Chr1	7985	8243	+	product	CDS	L01.t1.p4	L01.t1	product_biotype=ORF;product_cluster=L01.g1.pc3;gene=L01.g1;gene_name=L01.gn1;phase=2;frameshift=7996:-1;featureUid=Chr1_7985_8243_+;
+Chr1	8486	8593	+	product	CDS	L01.t1.p4	L01.t1	product_biotype=ORF;product_cluster=L01.g1.pc3;gene=L01.g1;gene_name=L01.gn1;phase=0;featureUid=Chr1_8486_8593_+;
+Chr1	6049	6098	+	product	CDS	L01.t1.p5	L01.t1	product_biotype=ORF;product_cluster=L01.g1.pc4;gene=L01.g1;gene_name=L01.gn1;phase=0;featureUid=Chr1_6049_6098_+;
+Chr1	6675	6787	+	product	CDS	L01.t1.p5	L01.t1	product_biotype=ORF;product_cluster=L01.g1.pc4;gene=L01.g1;gene_name=L01.gn1;phase=1;featureUid=Chr1_6675_6787_+;
+Chr1	7985	7998	+	product	CDS	L01.t1.p5	L01.t1	product_biotype=ORF;product_cluster=L01.g1.pc4;gene=L01.g1;gene_name=L01.gn1;phase=2;featureUid=Chr1_7985_7998_+;
+Chr1	5928	5997	+	processed	exon	L01.t2	L01.pt2,L01.pt1	processed_biotype=processed_transcript;product_biotype=ORF,sORF;featureUid=Chr1_5928_5997_+;
+Chr1	6036	6098	+	processed	exon	L01.t2	L01.pt2,L01.pt1	processed_biotype=processed_transcript;product_biotype=ORF,sORF;featureUid=Chr1_6036_6098_+;
+Chr1	6675	6787	+	processed	exon	L01.t2	L01.pt2,L01.pt1	processed_biotype=processed_transcript;product_biotype=ORF,sORF;featureUid=Chr1_6675_6787_+;
+Chr1	6987	7063	+	processed	exon	L01.t2	L01.pt2,L01.pt1	processed_biotype=processed_transcript;product_biotype=ORF,sORF;featureUid=Chr1_6987_7063_+;
+Chr1	5940	5997	+	product	CDS	L01.t2.p1	L01.t2	product_biotype=sORF;product_cluster=L01.g2.pc1;gene=L01.g2;gene_name=L01.gn2;phase=0;featureUid=Chr1_5940_5997_+;
+Chr1	6036	6038	+	product	CDS	L01.t2.p1	L01.t2	product_biotype=sORF;product_cluster=L01.g2.pc1;gene=L01.g2;gene_name=L01.gn2;phase=2;featureUid=Chr1_6036_6038_+;
+Chr1	7023	7052	+	product	CDS	L01.t2.p2	L01.t2	product_biotype=sORF;product_cluster=L01.g7.pc1;gene=L01.g7;gene_name=L01.gn7;phase=0;featureUid=Chr1_7023_7052_+;
+Chr1	5963	5997	+	product	CDS	L01.t2.p3	L01.t2	product_biotype=ORF;product_cluster=L01.g1.pc5;gene=L01.g1;gene_name=L01.gn1;phase=0;featureUid=Chr1_5963_5997_+;
+Chr1	6036	6098	+	product	CDS	L01.t2.p3	L01.t2	product_biotype=ORF;product_cluster=L01.g1.pc5;gene=L01.g1;gene_name=L01.gn1;phase=1;featureUid=Chr1_6036_6098_+;
+Chr1	6675	6787	+	product	CDS	L01.t2.p3	L01.t2	product_biotype=ORF;product_cluster=L01.g1.pc5;gene=L01.g1;gene_name=L01.gn1;phase=1;featureUid=Chr1_6675_6787_+;
+Chr1	6987	7000	+	product	CDS	L01.t2.p3	L01.t2	product_biotype=ORF;product_cluster=L01.g1.pc5;gene=L01.g1;gene_name=L01.gn1;phase=2;featureUid=Chr1_6987_7000_+;
+Chr1	6049	6098	+	product	CDS	L01.t2.p4	L01.t2	product_biotype=ORF;product_cluster=L01.g1.pc6;gene=L01.g1;gene_name=L01.gn1;phase=0;featureUid=Chr1_6049_6098_+;
+Chr1	6675	6787	+	product	CDS	L01.t2.p4	L01.t2	product_biotype=ORF;product_cluster=L01.g1.pc6;gene=L01.g1;gene_name=L01.gn1;phase=1;featureUid=Chr1_6675_6787_+;
+Chr1	6987	7000	+	product	CDS	L01.t2.p4	L01.t2	product_biotype=ORF;product_cluster=L01.g1.pc6;gene=L01.g1;gene_name=L01.gn1;phase=2;featureUid=Chr1_6987_7000_+;
+Chr1	-420	-435	+	processed	polyA_sequence	L01.t3	L01.pt3,L01.pt5,L01.pt1	processed_biotype=processed_transcript;product_biotype=teORF;sequence=AAAAAAAAAAAAA;featureUid=Chr1_-420_-435_+;
+Chr1	7985	8243	+	processed	exon	L01.t3	L01.pt3,L01.pt5,L01.pt1	processed_biotype=processed_transcript;product_biotype=teORF;featureUid=Chr1_7985_8243_+;
+Chr1	8486	8645	+	processed	exon	L01.t3	L01.pt3,L01.pt5,L01.pt1	processed_biotype=processed_transcript;product_biotype=teORF;featureUid=Chr1_8486_8645_+;
+Chr1	7998	8243	+	product	CDS	L01.t3.p1	L01.t3	product_biotype=teORF;product_cluster=L01.g3.pc1;gene=L01.g3;gene_name=L01.gn3;phase=0;featureUid=Chr1_7998_8243_+;
+Chr1	8486	8593	+	product	CDS	L01.t3.p1	L01.t3	product_biotype=teORF;product_cluster=L01.g3.pc1;gene=L01.g3;gene_name=L01.gn3;phase=0;featureUid=Chr1_8486_8593_+;
+Chr1	5928	7663	+	primary	region	L01.pt2	L01	primary_biotype=primary_transcript;transcribed=TRUE;featureUid=Chr1_5928_7663_+;
+Chr1	6036	8737	+	primary	region	L01.pt3	L01	primary_biotype=primary_transcript;transcribed=TRUE;featureUid=Chr1_6036_8737_+;
+Chr1	6036	6098	+	processed	exon	L01.t4	L01.pt3	processed_biotype=processed_transcript;product_biotype=ORF;featureUid=Chr1_6036_6098_+;
+Chr1	6675	6787	+	processed	exon	L01.t4	L01.pt3	processed_biotype=processed_transcript;product_biotype=ORF;featureUid=Chr1_6675_6787_+;
+Chr1	7985	8243	+	processed	exon	L01.t4	L01.pt3	processed_biotype=processed_transcript;product_biotype=ORF;featureUid=Chr1_7985_8243_+;
+Chr1	8486	8645	+	processed	exon	L01.t4	L01.pt3	processed_biotype=processed_transcript;product_biotype=ORF;featureUid=Chr1_8486_8645_+;
+Chr1	6049	6098	+	product	CDS	L01.t4.p1	L01.t4	product_biotype=ORF;product_cluster=L01.g1.pc3;gene=L01.g1;gene_name=L01.gn1;phase=0;featureUid=Chr1_6049_6098_+;
+Chr1	6675	6787	+	product	CDS	L01.t4.p1	L01.t4	product_biotype=ORF;product_cluster=L01.g1.pc3;gene=L01.g1;gene_name=L01.gn1;phase=1;featureUid=Chr1_6675_6787_+;
+Chr1	7985	8243	+	product	CDS	L01.t4.p1	L01.t4	product_biotype=ORF;product_cluster=L01.g1.pc3;gene=L01.g1;gene_name=L01.gn1;phase=2;frameshift=7996:-1;featureUid=Chr1_7985_8243_+;
+Chr1	8486	8593	+	product	CDS	L01.t4.p1	L01.t4	product_biotype=ORF;product_cluster=L01.g1.pc3;gene=L01.g1;gene_name=L01.gn1;phase=0;featureUid=Chr1_8486_8593_+;
+Chr1	6049	6098	+	product	CDS	L01.t4.p2	L01.t4	product_biotype=ORF;product_cluster=L01.g1.pc4;gene=L01.g1;gene_name=L01.gn1;phase=0;featureUid=Chr1_6049_6098_+;
+Chr1	6675	6787	+	product	CDS	L01.t4.p2	L01.t4	product_biotype=ORF;product_cluster=L01.g1.pc4;gene=L01.g1;gene_name=L01.gn1;phase=1;featureUid=Chr1_6675_6787_+;
+Chr1	7985	7998	+	product	CDS	L01.t4.p2	L01.t4	product_biotype=ORF;product_cluster=L01.g1.pc4;gene=L01.g1;gene_name=L01.gn1;phase=2;featureUid=Chr1_7985_7998_+;
+Chr1	6036	6098	+	processed	exon	L01.t5	L01.pt4,L01.pt3	processed_biotype=processed_transcript;product_biotype=ORF,sORF;featureUid=Chr1_6036_6098_+;
+Chr1	6675	6787	+	processed	exon	L01.t5	L01.pt4,L01.pt3	processed_biotype=processed_transcript;product_biotype=ORF,sORF;featureUid=Chr1_6675_6787_+;
+Chr1	6987	7063	+	processed	exon	L01.t5	L01.pt4,L01.pt3	processed_biotype=processed_transcript;product_biotype=ORF,sORF;featureUid=Chr1_6987_7063_+;
+Chr1	7023	7052	+	product	CDS	L01.t5.p1	L01.t5	product_biotype=sORF;product_cluster=L01.g7.pc1;gene=L01.g7;gene_name=L01.gn7;phase=0;featureUid=Chr1_7023_7052_+;
+Chr1	6049	6098	+	product	CDS	L01.t5.p2	L01.t5	product_biotype=ORF;product_cluster=L01.g1.pc6;gene=L01.g1;gene_name=L01.gn1;phase=0;featureUid=Chr1_6049_6098_+;
+Chr1	6675	6787	+	product	CDS	L01.t5.p2	L01.t5	product_biotype=ORF;product_cluster=L01.g1.pc6;gene=L01.g1;gene_name=L01.gn1;phase=1;featureUid=Chr1_6675_6787_+;
+Chr1	6987	7000	+	product	CDS	L01.t5.p2	L01.t5	product_biotype=ORF;product_cluster=L01.g1.pc6;gene=L01.g1;gene_name=L01.gn1;phase=2;featureUid=Chr1_6987_7000_+;
+Chr1	6036	7663	+	primary	region	L01.pt4	L01	primary_biotype=primary_transcript;transcribed=TRUE;featureUid=Chr1_6036_7663_+;
+Chr1	6124	6342	+	processed	exon	L01.t6	L01.pt4	processed_biotype=processed_transcript;product_biotype=circleRNA;featureUid=Chr1_6124_6342_+;
+Chr1	6398	6478	+	processed	exon	L01.t6	L01.pt4	processed_biotype=processed_transcript;product_biotype=circleRNA;featureUid=Chr1_6398_6478_+;
+Chr1	-1	-300	+	product	mature	L01.t6.p1	L01.t6	product_biotype=circleRNA;product_cluster=L01.g4.pc1;gene=L01.g4;gene_name=L01.gn4;featureUid=Chr1_-1_-300_+;
+Chr1	6124	6342	+	processed	exon	L01.t7	L01.pt4	processed_biotype=processed_transcript;product_biotype=circleRNA;featureUid=Chr1_6124_6342_+;
+Chr1	6343	6397	+	processed	intron	L01.t7	L01.pt4	processed_biotype=processed_transcript;product_biotype=circleRNA;featureUid=Chr1_6343_6397_+;
+Chr1	6398	6478	+	processed	exon	L01.t7	L01.pt4	processed_biotype=processed_transcript;product_biotype=circleRNA;featureUid=Chr1_6398_6478_+;
+Chr1	-1	-355	+	product	mature	L01.t7.p1	L01.t7	product_biotype=circleRNA;product_cluster=L01.g4.pc2;gene=L01.g4;gene_name=L01.gn4;featureUid=Chr1_-1_-355_+;
+Chr1	6343	6397	+	processed	intron	L01.t8	L01.pt4	processed_biotype=processed_transcript;product_biotype=circleRNA;featureUid=Chr1_6343_6397_+;
+Chr1	-1	-81	+	product	mature	L01.t8.p1	L01.t8	product_biotype=circleRNA;product_cluster=L01.g8.pc1;gene=L01.g8;gene_name=L01.gn8;featureUid=Chr1_-1_-81_+;
+Chr1	6124	8737	+	primary	region	L01.pt5	L01	primary_biotype=primary_transcript;transcribed=TRUE;featureUid=Chr1_6124_8737_+;
+Chr1	6124	6342	+	processed	exon	L01.t9	L01.pt5	processed_biotype=processed_transcript;product_biotype=lncRNA,teORF;featureUid=Chr1_6124_6342_+;
+Chr1	6398	6478	+	processed	exon	L01.t9	L01.pt5	processed_biotype=processed_transcript;product_biotype=lncRNA,teORF;featureUid=Chr1_6398_6478_+;
+Chr1	6675	6787	+	processed	exon	L01.t9	L01.pt5	processed_biotype=processed_transcript;product_biotype=lncRNA,teORF;featureUid=Chr1_6675_6787_+;
+Chr1	6987	7063	+	processed	exon	L01.t9	L01.pt5	processed_biotype=processed_transcript;product_biotype=lncRNA,teORF;featureUid=Chr1_6987_7063_+;
+Chr1	7985	8243	+	processed	exon	L01.t9	L01.pt5	processed_biotype=processed_transcript;product_biotype=lncRNA,teORF;featureUid=Chr1_7985_8243_+;
+Chr1	8486	8645	+	processed	exon	L01.t9	L01.pt5	processed_biotype=processed_transcript;product_biotype=lncRNA,teORF;featureUid=Chr1_8486_8645_+;
+Chr1	7998	8243	+	product	CDS	L01.t9.p1	L01.t9	product_biotype=teORF;product_cluster=L01.g3.pc1;gene=L01.g3;gene_name=L01.gn3;phase=0;featureUid=Chr1_7998_8243_+;
+Chr1	8486	8593	+	product	CDS	L01.t9.p1	L01.t9	product_biotype=teORF;product_cluster=L01.g3.pc1;gene=L01.g3;gene_name=L01.gn3;phase=0;featureUid=Chr1_8486_8593_+;
+Chr1	-1	-909	+	product	mature	L01.t9.p2	L01.t9	product_biotype=lncRNA;product_cluster=L01.g5.pc1;gene=L01.g5;gene_name=L01.gn5;featureUid=Chr1_-1_-909_+;
+Chr1	6124	7663	+	primary	region	L01.pt6	L01	primary_biotype=primary_transcript;transcribed=TRUE;featureUid=Chr1_6124_7663_+;
+Chr1	6124	6342	+	processed	exon	L01.t10	L01.pt6	processed_biotype=processed_transcript;product_biotype=lncRNA;featureUid=Chr1_6124_6342_+;
+Chr1	6398	6478	+	processed	exon	L01.t10	L01.pt6	processed_biotype=processed_transcript;product_biotype=lncRNA;featureUid=Chr1_6398_6478_+;
+Chr1	6675	6787	+	processed	exon	L01.t10	L01.pt6	processed_biotype=processed_transcript;product_biotype=lncRNA;featureUid=Chr1_6675_6787_+;
+Chr1	6987	7063	+	processed	exon	L01.t10	L01.pt6	processed_biotype=processed_transcript;product_biotype=lncRNA;featureUid=Chr1_6987_7063_+;
+Chr1	-1	-490	+	product	mature	L01.t10.p1	L01.t10	product_biotype=lncRNA;product_cluster=L01.g5.pc2;gene=L01.g5;gene_name=L01.gn5;featureUid=Chr1_-1_-490_+;
+Chr1	6124	6578	+	primary	region	L01.pt7	L01	primary_biotype=primary_transcript;transcribed=TRUE;featureUid=Chr1_6124_6578_+;
+Chr1	6124	6342	+	processed	exon	L01.t11	L01.pt7	processed_biotype=processed_transcript;product_biotype=miRNA;featureUid=Chr1_6124_6342_+;
+Chr1	6398	6478	+	processed	exon	L01.t11	L01.pt7	processed_biotype=processed_transcript;product_biotype=miRNA;featureUid=Chr1_6398_6478_+;
+Chr1	6234	6252	+	product	mature	L01.t11.p1	L01.t11	product_biotype=miRNA;product_cluster=L01.g6.pc1;gene=L01.g6;gene_name=L01.gn6;featureUid=Chr1_6234_6252_+;
+Chr1	6340	6342	+	product	mature	L01.t11.p2	L01.t11	product_biotype=miRNA;product_cluster=L01.g9.pc1;gene=L01.g9;gene_name=L01.gn9;featureUid=Chr1_6340_6342_+;
+Chr1	6398	6413	+	product	mature	L01.t11.p2	L01.t11	product_biotype=miRNA;product_cluster=L01.g9.pc1;gene=L01.g9;gene_name=L01.gn9;featureUid=Chr1_6398_6413_+;
+Chr1	6300	8900	-	primary	region	L01.pt8	L01	primary_biotype=primary_transcript;transcribed=TRUE;featureUid=Chr1_6300_8900_-;
+Chr1	6300	6400	-	processed	exon	L01.t12	L01.pt8	processed_biotype=processed_transcript;product_biotype=ORF;featureUid=Chr1_6300_6400_-;
+Chr1	6675	6787	-	processed	exon	L01.t12	L01.pt8	processed_biotype=processed_transcript;product_biotype=ORF;featureUid=Chr1_6675_6787_-;
+Chr1	7985	8900	-	processed	exon	L01.t12	L01.pt8	processed_biotype=processed_transcript;product_biotype=ORF;featureUid=Chr1_7985_8900_-;
+Chr1	6300	6400	-	product	CDS	L01.t12.p1	L01.t12	product_biotype=ORF;product_cluster=L01.g10.pc1;gene=L01.g10;gene_name=L01.gn10;phase=0;featureUid=Chr1_6300_6400_-;
+Chr1	6675	6787	-	product	CDS	L01.t12.p1	L01.t12	product_biotype=ORF;product_cluster=L01.g10.pc1;gene=L01.g10;gene_name=L01.gn10;phase=1;featureUid=Chr1_6675_6787_-;
+Chr1	7985	8900	-	product	CDS	L01.t12.p1	L01.t12	product_biotype=ORF;product_cluster=L01.g10.pc1;gene=L01.g10;gene_name=L01.gn10;phase=2;featureUid=Chr1_7985_8900_-;

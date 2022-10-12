@@ -1,0 +1,189 @@
+input is template.ngff
+#InFormat:ngff
+input is template.ngff
+#store infile is beginning.
+#store infile is ending.
+#Chr1 use codon id1
+WRONG_LENGTH	L01.t2.p1
+warning: without start codon	L01.t2.p1_0
+warning: without stop codon	L01.t2.p1_0
+warning: stop codon inside	L01.t2.p1_0
+warning: without start codon	L01.t2.p1_1
+warning: without stop codon	L01.t2.p1_1
+warning: stop codon inside	L01.t2.p1_1
+warning: without start codon	L01.t2.p1_2
+warning: without stop codon	L01.t2.p1_2
+warning: stop codon inside	L01.t2.p1_2
+warning: without start codon	L01.t2.p1_3
+warning: without stop codon	L01.t2.p1_3
+warning: stop codon inside	L01.t2.p1_3
+warning: without start codon	L01.t2.p1_4
+warning: without stop codon	L01.t2.p1_4
+warning: stop codon inside	L01.t2.p1_4
+warning: without start codon	L01.t2.p1_5
+warning: without stop codon	L01.t2.p1_5
+warning: stop codon inside	L01.t2.p1_5
+warning: without start codon	L01.t2.p1_6
+warning: without stop codon	L01.t2.p1_6
+warning: stop codon inside	L01.t2.p1_6
+warning: without start codon	L01.t2.p1_7
+warning: without stop codon	L01.t2.p1_7
+warning: stop codon inside	L01.t2.p1_7
+warning: without start codon	L01.t2.p1_8
+warning: without stop codon	L01.t2.p1_8
+warning: stop codon inside	L01.t2.p1_8
+#Chr1 use codon id1
+WRONG_LENGTH	L01.t1.p1
+warning: without start codon	L01.t1.p1_0
+warning: without stop codon	L01.t1.p1_0
+warning: stop codon inside	L01.t1.p1_0
+warning: without start codon	L01.t1.p1_1
+warning: without stop codon	L01.t1.p1_1
+warning: stop codon inside	L01.t1.p1_1
+warning: without start codon	L01.t1.p1_2
+warning: without stop codon	L01.t1.p1_2
+warning: stop codon inside	L01.t1.p1_2
+warning: without start codon	L01.t1.p1_3
+warning: without stop codon	L01.t1.p1_3
+warning: stop codon inside	L01.t1.p1_3
+warning: without start codon	L01.t1.p1_4
+warning: without stop codon	L01.t1.p1_4
+warning: stop codon inside	L01.t1.p1_4
+warning: without start codon	L01.t1.p1_5
+warning: without stop codon	L01.t1.p1_5
+warning: stop codon inside	L01.t1.p1_5
+warning: without start codon	L01.t1.p1_6
+warning: without stop codon	L01.t1.p1_6
+warning: stop codon inside	L01.t1.p1_6
+warning: without start codon	L01.t1.p1_7
+warning: without stop codon	L01.t1.p1_7
+warning: stop codon inside	L01.t1.p1_7
+warning: without start codon	L01.t1.p1_8
+warning: without stop codon	L01.t1.p1_8
+warning: stop codon inside	L01.t1.p1_8
+#Chr1 use codon id1
+warning: without start codon	L01.t2.p3_0
+warning: stop codon inside	L01.t2.p3_0
+warning: without start codon	L01.t2.p3_1
+warning: stop codon inside	L01.t2.p3_1
+warning: without start codon	L01.t2.p3_2
+warning: stop codon inside	L01.t2.p3_2
+warning: without start codon	L01.t2.p3_3
+warning: stop codon inside	L01.t2.p3_3
+warning: without start codon	L01.t2.p3_4
+warning: stop codon inside	L01.t2.p3_4
+warning: without start codon	L01.t2.p3_5
+warning: stop codon inside	L01.t2.p3_5
+warning: without start codon	L01.t2.p3_6
+warning: stop codon inside	L01.t2.p3_6
+warning: without start codon	L01.t2.p3_7
+warning: stop codon inside	L01.t2.p3_7
+warning: without start codon	L01.t2.p3_8
+warning: stop codon inside	L01.t2.p3_8
+#Chr1 use codon id1
+warning: without start codon	L01.t1.p3_0
+warning: without stop codon	L01.t1.p3_0
+warning: stop codon inside	L01.t1.p3_0
+warning: without start codon	L01.t1.p3_1
+warning: without stop codon	L01.t1.p3_1
+warning: stop codon inside	L01.t1.p3_1
+warning: without start codon	L01.t1.p3_2
+warning: without stop codon	L01.t1.p3_2
+warning: stop codon inside	L01.t1.p3_2
+warning: without start codon	L01.t1.p3_3
+warning: without stop codon	L01.t1.p3_3
+warning: stop codon inside	L01.t1.p3_3
+warning: without start codon	L01.t1.p3_4
+warning: without stop codon	L01.t1.p3_4
+warning: stop codon inside	L01.t1.p3_4
+warning: without start codon	L01.t1.p3_5
+warning: without stop codon	L01.t1.p3_5
+warning: stop codon inside	L01.t1.p3_5
+warning: without start codon	L01.t1.p3_6
+warning: without stop codon	L01.t1.p3_6
+warning: stop codon inside	L01.t1.p3_6
+warning: without start codon	L01.t1.p3_7
+warning: without stop codon	L01.t1.p3_7
+warning: stop codon inside	L01.t1.p3_7
+warning: without start codon	L01.t1.p3_8
+warning: without stop codon	L01.t1.p3_8
+warning: stop codon inside	L01.t1.p3_8
+#Chr1 use codon id1
+WRONG_LENGTH	L01.t1.p2
+warning: without start codon	L01.t1.p2_0
+warning: without stop codon	L01.t1.p2_0
+warning: stop codon inside	L01.t1.p2_0
+warning: without start codon	L01.t1.p2_1
+warning: without stop codon	L01.t1.p2_1
+warning: stop codon inside	L01.t1.p2_1
+warning: without start codon	L01.t1.p2_2
+warning: without stop codon	L01.t1.p2_2
+warning: stop codon inside	L01.t1.p2_2
+warning: without start codon	L01.t1.p2_3
+warning: without stop codon	L01.t1.p2_3
+warning: stop codon inside	L01.t1.p2_3
+warning: without start codon	L01.t1.p2_4
+warning: without stop codon	L01.t1.p2_4
+warning: stop codon inside	L01.t1.p2_4
+warning: without start codon	L01.t1.p2_5
+warning: without stop codon	L01.t1.p2_5
+warning: stop codon inside	L01.t1.p2_5
+warning: without start codon	L01.t1.p2_6
+warning: without stop codon	L01.t1.p2_6
+warning: stop codon inside	L01.t1.p2_6
+warning: without start codon	L01.t1.p2_7
+warning: without stop codon	L01.t1.p2_7
+warning: stop codon inside	L01.t1.p2_7
+warning: without start codon	L01.t1.p2_8
+warning: without stop codon	L01.t1.p2_8
+warning: stop codon inside	L01.t1.p2_8
+#Chr1 use codon id1
+warning: without start codon	L01.t2.p4
+warning: stop codon inside	L01.t2.p4
+#Chr1 use codon id1
+warning: without start codon	L01.t5.p2
+warning: stop codon inside	L01.t5.p2
+#Chr1 use codon id1
+warning: without start codon	L01.t4.p2
+warning: without stop codon	L01.t4.p2
+warning: stop codon inside	L01.t4.p2
+#Chr1 use codon id1
+warning: without start codon	L01.t1.p5
+warning: without stop codon	L01.t1.p5
+warning: stop codon inside	L01.t1.p5
+#Chr1 use codon id1
+WRONG_LENGTH	L01.t4.p1
+warning: without start codon	L01.t4.p1
+warning: without stop codon	L01.t4.p1
+warning: stop codon inside	L01.t4.p1
+#Chr1 use codon id1
+WRONG_LENGTH	L01.t1.p4
+warning: without start codon	L01.t1.p4
+warning: without stop codon	L01.t1.p4
+warning: stop codon inside	L01.t1.p4
+#Chr1 use codon id1
+warning: without start codon	L01.t2.p2
+warning: without stop codon	L01.t2.p2
+warning: stop codon inside	L01.t2.p2
+#Chr1 use codon id1
+warning: without start codon	L01.t5.p1
+warning: without stop codon	L01.t5.p1
+warning: stop codon inside	L01.t5.p1
+#Chr1 use codon id1
+warning: without start codon	L01.t9.p1
+warning: without stop codon	L01.t9.p1
+warning: stop codon inside	L01.t9.p1
+#Chr1 use codon id1
+warning: without start codon	L01.t3.p1
+warning: without stop codon	L01.t3.p1
+warning: stop codon inside	L01.t3.p1
+#Chr1 use codon id1
+WRONG_LENGTH	L01.t12.p1
+warning: without start codon	L01.t12.p1
+warning: without stop codon	L01.t12.p1
+warning: stop codon inside	L01.t12.p1
+#ChrM use codon id2
+WRONG_LENGTH	L02.t1.p1
+warning: without start codon	L02.t1.p1
+warning: without stop codon	L02.t1.p1
+warning: stop codon inside	L02.t1.p1

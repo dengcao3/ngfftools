@@ -1,0 +1,9 @@
+input is -
+#InFormat:ngff
+input is -
+#store infile is beginning.
+#store infile is ending.
+#OutFormat:gtf
+#Cheer, Input format(ngff) can produce output format(gtf)
+#print ourput is beginning.
+#print ourput is ending.

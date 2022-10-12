@@ -1,0 +1,9 @@
+input is fusion.ngff
+#InFormat:ngff
+input is fusion.ngff
+#store infile is beginning.
+#store infile is ending.
+#OutFormat:ngff
+#Cheer, Input format(ngff) can produce output format(ngff)
+#print ourput is beginning.
+#print ourput is ending.

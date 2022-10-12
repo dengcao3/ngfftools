@@ -1,0 +1,47 @@
+##NGFF version 1.0								
+##species Arabidopsis thaliana								
+##genome-build TAIR10.1								
+##reference Chr1 1 30427671								
+##reference Chr2 1 19698289								
+##reference Chr3 1 23459830								
+##reference Chr4 1 18585056								
+##reference Chr5 1 26975502								
+##reference ChrM 1 367808								
+##reference ChrC 1 154478								
+#seqId	start	end	strand	level	featureType	id	parentId	attributes
+Chr1	1	30427671	+	chromosome	reference	Chr1	genome	seqSource=major;circular=FALSE;
+Chr2	1	19698289	+	chromosome	reference	Chr2	genome	seqSource=major;circular=FALSE;
+Chr3	1	23459830	+	chromosome	reference	Chr3	genome	seqSource=major;circular=FALSE;
+Chr4	1	18585056	+	chromosome	reference	Chr4	genome	seqSource=major;circular=FALSE;
+Chr5	1	26975502	+	chromosome	reference	Chr5	genome	seqSource=major;circular=FALSE;
+ChrC	1	154478	+	chromosome	reference	ChrC	genome	seqSource=Chloroplast;circular=TRUE;
+ChrM	1	366924	+	chromosome	reference	ChrM	genome	seqSource=mitochondrion;circular=TRUE;
+Chr1	5928	8737	+	locus	locus	L01	Chr1	.
+Chr1	3212	3234	-	locus	regulator	L01	Chr1	regulator_biotype=enhancer;
+Chr1	5917	5927	+	locus	regulator	L01	Chr1	regulator_biotype=promotor;
+Chr1	6036	8737	+	primary	region	L01.pt3	L01	primary_biotype=primary_transcript;transcribed=TRUE;
+Chr1	6036	6098	+	processed	exon	L01.t4	L01.pt3	processed_biotype=processed_transcript;product_biotype=ORF;
+Chr1	6675	6787	+	processed	exon	L01.t4	L01.pt3	processed_biotype=processed_transcript;product_biotype=ORF;
+Chr1	7985	8243	+	processed	exon	L01.t4	L01.pt3	processed_biotype=processed_transcript;product_biotype=ORF;
+Chr1	8486	8645	+	processed	exon	L01.t4	L01.pt3	processed_biotype=processed_transcript;product_biotype=ORF;
+Chr1	6036	6098	+	processed	exon	L01.t5	L01.pt3,L02.pt1	processed_biotype=processed_transcript;product_biotype=ORF;order=1;
+Chr1	6675	6787	+	processed	exon	L01.t5	L01.pt3,L02.pt1	processed_biotype=processed_transcript;product_biotype=ORF;order=1;
+Chr1	7985	8243	+	processed	exon	L01.t5	L01.pt3,L02.pt1	processed_biotype=processed_transcript;product_biotype=ORF;order=1;
+Chr1	8486	8644	+	processed	exon	L01.t5	L01.pt3,L02.pt1	processed_biotype=processed_transcript;product_biotype=ORF;order=1;
+Chr2	7000	7299	-	processed	exon	L01.t5	L01.pt3,L02.pt1	processed_biotype=processed_transcript;product_biotype=ORF;order=2;
+Chr2	9001	9330	-	processed	exon	L01.t5	L01.pt3,L02.pt1	processed_biotype=processed_transcript;product_biotype=ORF;order=2;
+Chr1	6049	6098	+	product	CDS	L01.t4.p2	L01.t4	product_biotype=ORF;product_cluster=L01.g1.pc4;gene=L01.g1;gene_name=L01.gn1;phase=0;
+Chr1	6675	6787	+	product	CDS	L01.t4.p2	L01.t4	product_biotype=ORF;product_cluster=L01.g1.pc4;gene=L01.g1;gene_name=L01.gn1;phase=1;
+Chr1	7985	7998	+	product	CDS	L01.t4.p2	L01.t4	product_biotype=ORF;product_cluster=L01.g1.pc4;gene=L01.g1;gene_name=L01.gn1;phase=2;
+Chr1	6036	6098	+	product	CDS	L01.t5.p1	L01.t5	product_biotype=ORF;product_cluster=L01.g1.pc5;gene=L01.g1;gene_name=L01.gn1;phase=0;order=1;
+Chr1	6675	6787	+	product	CDS	L01.t5.p1	L01.t5	product_biotype=ORF;product_cluster=L01.g1.pc5;gene=L01.g1;gene_name=L01.gn1;phase=0;order=1;
+Chr1	7985	8243	+	product	CDS	L01.t5.p1	L01.t5	product_biotype=ORF;product_cluster=L01.g1.pc5;gene=L01.g1;gene_name=L01.gn1;phase=1;order=1;
+Chr1	8486	8644	+	product	CDS	L01.t5.p1	L01.t5	product_biotype=ORF;product_cluster=L01.g1.pc5;gene=L01.g1;gene_name=L01.gn1;phase=0;order=1;
+Chr2	7001	7299	-	product	CDS	L01.t5.p1	L01.t5	product_biotype=ORF;product_cluster=L01.g1.pc5;gene=L01.g1;gene_name=L01.gn1;phase=2;order=2;
+Chr2	9000	9330	-	product	CDS	L01.t5.p1	L01.t5	product_biotype=ORF;product_cluster=L01.g1.pc5;gene=L01.g1;gene_name=L01.gn1;phase=0;order=2;
+Chr2	7000	9377	-	locus	locus	L02	Chr2	.
+Chr2	7000	9370	-	primary	region	L02.pt1	L02	primary_biotype=primary_transcript;transcribed=TRUE;
+Chr2	7001	7299	-	processed	exon	L02.t1	L02.pt1	processed_biotype=processed_transcript;product_biotype=ORF;
+Chr2	9000	9330	-	processed	exon	L02.t1	L02.pt1	processed_biotype=processed_transcript;product_biotype=ORF;
+Chr2	7001	7299	-	product	CDS	L02.t1.p1	L02.t1	product_biotype=ORF;product_cluster=L02.g1.pc1;gene=L02.g1;gene_name=L02.gn1;phase=2;
+Chr2	9000	9330	-	product	CDS	L02.t1.p1	L02.t1	product_biotype=ORF;product_cluster=L02.g1.pc1;gene=L02.g1;gene_name=L02.gn1;phase=0;

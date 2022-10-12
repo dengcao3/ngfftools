@@ -1,0 +1,10 @@
+input is template.gtf
+#InFormat:gtf
+input is template.gtf
+#store infile is beginning.
+check: in gtf
+#store infile is ending.
+#OutFormat:gff3
+#Cheer, Input format(gtf) can produce output format(gff3)
+#print ourput is beginning.
+#print ourput is ending.

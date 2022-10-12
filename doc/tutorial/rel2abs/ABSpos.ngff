@@ -1,0 +1,11 @@
+Chr1	6236	6238	+	product	mature	L01.t11.p1	L01.t11	product_biotype=miRNA;
+Chr1	6340	6342	+	product	mature	L01.t11.p2	L01.t11	product_biotype=miRNA;
+Chr1	6398	6400	+	product	mature	L01.t11.p2	L01.t11	product_biotype=miRNA;
+Chr1	8889	8891	-	product	CDS	L01.t12.p1	L01.t12	product_biotype=ORF;
+Chr1	7985	7986	-	product	CDS	L01.t12.p1	L01.t12	product_biotype=ORF;
+Chr1	6774	6787	-	product	CDS	L01.t12.p1	L01.t12	product_biotype=ORF;
+Chr1	7985	7986	-	product	CDS	L01.t12.p1	L01.t12	product_biotype=ORF;
+Chr1	6675	6787	-	product	CDS	L01.t12.p1	L01.t12	product_biotype=ORF;
+Chr1	6340	6400	-	product	CDS	L01.t12.p1	L01.t12	product_biotype=ORF;
+Chr1	5996	5997	+	product	CDS	L01.t1.p2	L01.t1	product_biotype=ORF;
+Chr1	6036	6039	+	product	CDS	L01.t1.p2	L01.t1	product_biotype=ORF;

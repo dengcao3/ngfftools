@@ -1,0 +1,19 @@
+#file_reference is template.ngff
+#files_need2merge is:forMerge.gff3
+input is template.ngff
+input is template.ngff
+#store reference file is beginning.
+#store reference file is ending.
+input is forMerge.gff3
+input is forMerge.gff3
+#store forMerge.gff3 is beginning.
+#store forMerge.gff3 is ending.
+#start merge file forMerge.gff3(1 times)
+ref template.ngff and sub forMerge.gff3: sub has new locus id gff3_gene2.locus
+ref template.ngff and sub forMerge.gff3: sub has new locus id gff3_gene8.locus
+#finish merge file forMerge.gff3(1 times)
+#OutFormat:ngff
+#print ourput is beginning.
+L01.t12.p1(7985 - 8900)'s phase is wrong, been corrected from 2 to 0
+L01.t12.p1(6675 - 6787)'s phase is wrong, been corrected from 1 to 2
+#print ourput is ending.

@@ -1,0 +1,11 @@
+input is template.ngff
+#InFormat:ngff
+input is template.ngff
+#store infile is beginning.
+#store infile is ending.
+#OutFormat:gff3
+#Cheer, Input format(ngff) can produce output format(gff3)
+#print ourput is beginning.
+L01.t12.p1(7985 - 8900)'s phase is wrong, been corrected from 2 to 0
+L01.t12.p1(6675 - 6787)'s phase is wrong, been corrected from 1 to 2
+#print ourput is ending.

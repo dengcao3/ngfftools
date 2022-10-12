@@ -1,0 +1,18 @@
+#file_reference is template.ngff
+#files_need2merge is:forMerge.gtf
+input is template.ngff
+input is template.ngff
+#store reference file is beginning.
+#store reference file is ending.
+input is forMerge.gtf
+input is forMerge.gtf
+#store forMerge.gtf is beginning.
+check: in gtf
+#store forMerge.gtf is ending.
+#start merge file forMerge.gtf(1 times)
+ref template.ngff and sub forMerge.gtf: sub has new locus id gtf_ENSG00000223972.locus
+ref template.ngff and sub forMerge.gtf: sub has new locus id gtf_ENSG00000278267.locus
+#finish merge file forMerge.gtf(1 times)
+#OutFormat:gtf
+#print ourput is beginning.
+#print ourput is ending.

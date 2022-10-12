@@ -1,0 +1,30 @@
+input is sub.GCF_000001405.38_GRCh38.p12_genomic.gff
+#InFormat:gff3
+input is sub.GCF_000001405.38_GRCh38.p12_genomic.gff
+#store infile is beginning.
+#WARNING: ignore rna3
+#WARNING: ignore rna4
+#WARNING: ignore rna7
+#WARNING: ignore gene10
+#WARNING: ignore gene11
+#WARNING: ignore gene11
+#WARNING: ignore gene11
+#WARNING: ignore gene11
+#WARNING: ignore rna28
+#WARNING: ignore rna29
+#WARNING: ignore gene19
+#WARNING: ignore gene25
+#WARNING: ignore gene25
+#WARNING: ignore gene25
+#WARNING: ignore gene25
+#WARNING: ignore rna46
+#WARNING: ignore gene39
+#WARNING: ignore gene40
+#WARNING: ignore gene40
+#WARNING: ignore gene40
+#WARNING: ignore gene40
+#store infile is ending.
+#OutFormat:ngff
+#Cheer, Input format(gff3) can produce output format(ngff)
+#print ourput is beginning.
+#print ourput is ending.

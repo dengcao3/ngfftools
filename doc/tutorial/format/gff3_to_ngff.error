@@ -1,0 +1,9 @@
+input is template.gff3
+#InFormat:gff3
+input is template.gff3
+#store infile is beginning.
+#store infile is ending.
+#OutFormat:ngff
+#Cheer, Input format(gff3) can produce output format(ngff)
+#print ourput is beginning.
+#print ourput is ending.

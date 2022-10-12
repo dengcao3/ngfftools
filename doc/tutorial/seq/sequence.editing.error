@@ -1,0 +1,11 @@
+input is editing_site.ngff
+#InFormat:ngff
+input is editing_site.ngff
+#store infile is beginning.
+#store infile is ending.
+#Chr1 use codon id1
+warning: without start codon	L01.t4.p2
+warning: without stop codon	L01.t4.p2
+#Chr1 use codon id1
+warning: without start codon	L02.t1.p1
+warning: without stop codon	L02.t1.p1
